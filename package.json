@@ -1,0 +1,20 @@
+{
+  "name": "hardware",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "reset": "firmata-party uno --debug",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "defaults": "^1.0.3",
+    "firmata-party": "^2.0.1",
+    "johnny-five": "^2.1.0",
+    "mqtt": "^4.2.8",
+    "uuid": "^8.3.2"
+  }
+}
